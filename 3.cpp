@@ -6,7 +6,7 @@ int main()
 	int sumr,suml=0;
 	scanf("%d",&a);
 	printf("%d",a);
-	int ar[a][a];
+	int ar[1000][1000];
 	for(int i=0;i<a;i++)
 	{
 		for(int j =0;j<a;j++)
