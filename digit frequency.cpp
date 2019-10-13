@@ -29,15 +29,15 @@ int main()
 		if(c[i]=='9')
 		s9=s9+1;	
 	}
-	printf("%d ",s0);
-	printf("%d ",s1);
-	printf("%d ",s2);
-	printf("%d ",s3);
-	printf("%d ",s4);
-	printf("%d ",s5);
-	printf("%d ",s6);
-	printf("%d ",s7);
-	printf("%d ",s8);
-	printf("%d ",s9);
+	printf("%d ",s0\n);
+	printf("%d ",s1\n);
+	printf("%d ",s2\n);
+	printf("%d ",s3\n);
+	printf("%d ",s4\n);
+	printf("%d ",s5\n);
+	printf("%d ",s6\n);
+	printf("%d ",s7\n);
+	printf("%d ",s8\n);
+	printf("%d ",s9\n);
 	return 0;
 }
