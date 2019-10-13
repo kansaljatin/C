@@ -23,7 +23,7 @@ int main()
 		if(i==8)
 		printf("eight\n");
 		if(i==9)
-		printf("nine\n");
+		printf("nine");
 	}
 	for(int j=10;j<=b;j++)
 	{
