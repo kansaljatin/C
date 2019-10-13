@@ -6,7 +6,7 @@ int main()
 	gets(c);
 	for(int i=0;i<strlen(c);i++)
 	{
-		if(c[i]==' ')
+		if(c[i]==" ")
 		{
 			printf("\n");
 		}
