@@ -28,6 +28,6 @@ int main()
 			}
 		}
 	}
-	printf("%d",suml-sumr);
+	printf("%d",(suml-sumr));
 	return 0;
 }
