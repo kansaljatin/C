@@ -6,7 +6,10 @@ int main()
 	int s0=0;int s1=0;int s2=0;int s3=0;int s4=0;int s5=0;int s6=0;int s7=0;int s8=0;int s9=0,i;
 	char c[100];
 	gets(c);
-	for(i=0;i<strlen(c);i++)
+	int d = 0;
+	while (c[d] != '\0')
+	d++;
+	for(i=0;i<d;i++)
 	{
 		if(c[i]=='0')
 		s0=s0+1;
@@ -29,6 +32,6 @@ int main()
 		if(c[i]=='9')
 		s9=s9+1;	
 	}
-	printf("%d %d %d %d %d %d %d %d %d %d",s0,s1,s2,s3,s4,s5,s6,s7,s8,s9);
+	printf("%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d",s0,s1,s2,s3,s4,s5,s6,s7,s8,s9);
 	return 0;
 }
