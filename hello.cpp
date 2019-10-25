@@ -4,7 +4,10 @@ int main()
 {
 	char c[100];
 	gets(c);
-	for(int i=0;i<strlen(c);i++)
+	int d=0;
+	while (c[d] != '\0')
+    	d++;
+	for(int i=0;i<d;i++)
 	{
 		if(c[i]==" ")
 		{
