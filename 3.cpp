@@ -2,25 +2,27 @@
 #include<conio.h>
 int main()
 {
-	int a,sumr,suml=0;
+	int a,sumr,suml=0,i=0,m=0,s=0;
 	scanf("%d",&a);
 	printf("%d",a);
 	int ar[1000][1000];
-	for(int i=0;i<a;i++)
+	while(i<a)
 	{
 		for(int j =0;j<a;j++)
 		scanf("%d\t",&ar[i][j]);
 		printf("\n");
+		i++;
 	}
-	for(int m=0;m<a;m++)
+	while(m<a)	
 	{
 		for(int n=0;n<a;n++)
-		{
+		{	s=m+n;
 			if(m==n)
 			suml=suml+ar[m][n];
-			if(m+n==a-1)
+			if(s==a-1)
 			sumr=sumr+ar[m][n];
 		}
+		m++;
 	}
 	printf("%d",suml-sumr);
 	return 0;
